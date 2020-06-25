@@ -12,7 +12,7 @@ Introducción a JavaScript por Ada ITW - https://adaitw.org
 
 ## Expresiones de Gratitud 🎁
 
-A la increíble profesora de Frontend, Malena Rey [malerey]
+A la increíble profesora de Frontend, Malena Rey [malerey](https://github.com/malerey)
 
 ---
 ⌨️ con ❤️ por [maridevmx](https://github.com/maridevmx) 👩‍💻
