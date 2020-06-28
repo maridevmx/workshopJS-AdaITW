@@ -1,3 +1,18 @@
 # Workshop de introducción a JavaScript - AdaITW 👩‍💻
 
-Juego piedra, papel y tijera con JavaScript - Workshop Ada ITW
+Rock Paper Scissors Game with JavaScript - Workshop Ada ITW
+
+* HTML
+* CSS
+* JavaScript
+
+## Información del curso 📚
+
+Introducción a JavaScript por Ada ITW - https://adaitw.org
+
+## Expresiones de Gratitud 🎁
+
+A la increíble profesora de Frontend, Malena Rey [malerey](https://github.com/malerey)
+
+---
+⌨️ con ❤️ por [maridevmx](https://github.com/maridevmx) 👩‍💻
