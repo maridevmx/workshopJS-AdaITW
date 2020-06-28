@@ -1,3 +1,9 @@
+/* 
+  Workshop: Introducción a JavaScript
+  Por: Ada ITW 'Empoderamos mujeres a través de la tecnología'
+  Fecha: 26/05/2020
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
 
 * {
@@ -111,6 +117,16 @@ section {
   .tablero button img {
     height: 40px;
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
 }
 
 @keyframes shake {

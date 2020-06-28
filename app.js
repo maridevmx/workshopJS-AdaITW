@@ -1,22 +1,35 @@
+/* 
+  Workshop: Introducción a JavaScript
+  Por: Ada ITW 'Empoderamos mujeres a través de la tecnología'
+  Fecha: 26/05/2020
+*/
+
+// Puntaje final del Usuario y Computadora
 let puntajesUsuaria = document.querySelector(".puntaje-usuaria p");
 let puntajesComputadora = document.querySelector(".puntaje-computadora p")
 
+// Variables para almacenar el puntaje del Usuario y Computadora por ronda
 let puntosUsuaria = 0;
 let puntosComputadora = 0;
 
+// Variables para almacenar la elección del Usuario y Computadora
 let eleccionComputadora = "";
 let eleccionUsuaria = "";
 
+// Se obtienen los elementos mediante sus clases
 let botonPiedra = document.querySelector(".piedra");
 let botonPapel = document.querySelector(".papel")
 let botonTijera = document.querySelector(".tijera")
 
+// Mensaje de resultado
 let resultadoTexto = document.querySelector(".resultado")
 
+// Se obtienen los elementos mediante sus clases
 let manoUsuaria = document.querySelector(".mano-usuaria")
 let manoComputadora = document.querySelector(".mano-computadora")
 let tablero = document.querySelector(".tablero")
 
+// Método 'Piedra'
 botonPiedra.onclick = () => {
   resultadoTexto.textContent = "🤨"
   manoComputadora.src = "./assets/piedra_computadora.png"
@@ -31,6 +44,7 @@ botonPiedra.onclick = () => {
   }, 2000)
 }
 
+// Método 'Papel'
 botonPapel.onclick = () => {
   resultadoTexto.textContent = "🤨"
   manoComputadora.src = "./assets/piedra_computadora.png"
@@ -45,6 +59,7 @@ botonPapel.onclick = () => {
   }, 2000)
 }
 
+// Método 'Tijeras'
 botonTijera.onclick = () => {
   resultadoTexto.textContent = "🤨"
   manoComputadora.src = "./assets/piedra_computadora.png"
@@ -59,6 +74,7 @@ botonTijera.onclick = () => {
   }, 2000)
 }
 
+// Se obtiene elección de la computadora de manera aleatoria
 const obtenerEleccionComputadora = () => {
   let numeroAlAzar = Math.floor(Math.random() * 3) 
   if (numeroAlAzar == 0) {
@@ -75,6 +91,7 @@ const obtenerEleccionComputadora = () => {
   }
 }
 
+// Se evaluan elecciones del Usuario y de la Computadora para decidir el puntaje
 const decidirPuntaje = () => {
   if (eleccionComputadora == "piedra") {
     if (eleccionUsuaria == "piedra") {
