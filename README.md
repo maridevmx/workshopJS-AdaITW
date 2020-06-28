@@ -10,7 +10,11 @@ Rock Paper Scissors Game with JavaScript - Workshop Ada ITW
 
 Introducción a JavaScript por Ada ITW - https://adaitw.org
 
-## Expresiones de Gratitud 🎁
+## Despliegue 📦
+
+El proyecto se puede consultar en la siguiente liga: [Rock Scissors Paper Game] (https://maridevmx.github.io/workshopJS-AdaITW/)
+
+## Agradecimientos 🎁
 
 A la increíble profesora de Frontend, Malena Rey [malerey](https://github.com/malerey)
 
