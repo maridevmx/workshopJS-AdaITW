@@ -12,7 +12,7 @@ Introducción a JavaScript por Ada ITW - https://adaitw.org
 
 ## Despliegue 📦
 
-El proyecto se puede consultar en la siguiente liga: [Rock Scissors Paper Game] (https://maridevmx.github.io/workshopJS-AdaITW/)
+El proyecto se puede consultar en la siguiente liga: (https://maridevmx.github.io/workshopJS-AdaITW/)
 
 ## Agradecimientos 🎁
 
